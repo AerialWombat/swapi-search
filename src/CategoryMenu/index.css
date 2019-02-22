@@ -1,0 +1,50 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+
+    height: 90vh;
+
+    padding-bottom: .5rem;
+}
+
+.menu__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 10%;
+}
+
+.menu__list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+
+    height: 90%;
+}
+
+.menu__button {
+    height: 25%;
+    width: 40%;
+    border: 2px solid rgba(255, 219, 53, .5);
+
+    margin: .25rem;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.25rem;
+    color: rgba(255, 219, 53, .9);
+    text-transform: uppercase;
+    text-shadow: 0 1px 5px rgb(73, 63, 16);
+
+    background: rgba(255, 219, 53, .1);
+
+	cursor: pointer;
+
+	transition: all .25s;
+}
+
+.menu__button:hover {
+    border-color: rgba(255, 219, 53, 1);
+    color: rgba(255, 219, 53, 1);
+    background: rgba(255, 219, 53, .2)
+}

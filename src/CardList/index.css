@@ -1,0 +1,7 @@
+.cardlist {
+    height: 75vh;
+
+    padding: .5rem 1rem;
+
+    overflow-y: scroll;
+}
